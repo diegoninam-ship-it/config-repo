@@ -2,6 +2,9 @@ server:
   port: 8082
 
 spring:
+  application:
+    name: categoria-service
+
   datasource:
     url: jdbc:mysql://localhost:3306/bd_categoria_dev
     username: root
@@ -13,3 +16,4 @@ spring:
     show-sql: true
 mensaje:
   texto: Configuración obtenida desde Config Server para Categoría Service
+  
