@@ -6,6 +6,6 @@ spring:
     name: cliente-service
 
   datasource:
-    url: jdbc:mysql://localhost:3306/bd_producto_dev
+    url: jdbc:mysql://localhost:3306/bd_cliente_dev
     username: root
     password:
