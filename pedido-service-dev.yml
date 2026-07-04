@@ -8,4 +8,4 @@ spring:
   datasource:
     url: jdbc:mysql://localhost:3306/bd_pedido_dev
     username: root
-    password:
+    password: Root2026!
