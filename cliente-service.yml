@@ -10,3 +10,12 @@ spring:
 mensaje:
   texto: Configuración obtenida desde Config Server para Cliente Service
 
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+
+  endpoint:
+    health:
+      show-details: always
